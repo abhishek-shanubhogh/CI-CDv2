@@ -6,7 +6,6 @@ jobs:
     steps:
       - name : Checking python files
         uses: actions/checkout@v4.2.2
-      - name: Runpython
       - run : |
               cd Python
               python first.py
