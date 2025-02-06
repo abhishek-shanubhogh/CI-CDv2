@@ -1,0 +1,16 @@
+name: Build python files
+on: push
+jobs:
+  Python_Build:
+    runs-on: windows-latest
+    steps:
+      - name : Checking python files
+        uses: actions/checkout@v4.2.2
+      - name: Runpython
+      - run : |
+              cd Python
+              python first.py
+      
+      
+      
+  
